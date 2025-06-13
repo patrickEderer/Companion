@@ -1,0 +1,18 @@
+you can bind an animal to one sword
+
+when pressing f with weapon that has animal
+	show menu relative to player
+	switch weapon back to main_hand
+
+update menu pos to be relative to player
+select option player is looking at
+options are in circle in front of player
+options are items with custom model data so pixel art WOOOOW
+options have interactions with hit detection for clicking
+
+maybe option for selecting enemy for tracking by looking at them
+
+options are types:
+	build
+	attack
+	heal

@@ -1,6 +1,6 @@
 forceload add ~ ~
 
-summon marker ~ ~ ~ {Tags: ["temp"]}
+summon minecraft:marker ~ ~ ~ {Tags: ["temp"]}
 
 $execute store result score .sin temp run data get entity @e[type=marker,tag=temp,limit=1] Pos[0] $(p)
 
