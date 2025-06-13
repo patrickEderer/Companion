@@ -1,5 +1,6 @@
 {
     "values": [
-        "companion:load"
+        "companion:load",
+        "math:load"
     ]
 }
