@@ -1,1 +1,1 @@
-$data merge entity @s {transformation:{left_rotation:[$(sin)f,0.0f,$(cos)f,0.0f]}, start_interpolation:-1,interpolation_duration:20}
+$data merge entity @s {transformation:{left_rotation:[$(x)f,0.0f,$(z)f,0.0f], right_rotation:[0.0f,$(y)f,0.0f,0.0f]}}

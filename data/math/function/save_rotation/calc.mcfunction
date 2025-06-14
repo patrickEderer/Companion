@@ -1,0 +1,1 @@
+$execute positioned 0. 0. 0. rotated ~90 ~ rotated $(pitch) $(yaw) positioned ^ ^ ^1 run function math:save_rotation/store_pos
