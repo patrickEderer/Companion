@@ -4,6 +4,8 @@ summon marker ~ ~ ~ {Tags:["menu","menu-center","companion-entity"]}
 data modify entity @e[tag=menu-center,tag=!tagged,limit=1,sort=nearest] data.player_pos set from entity @s Pos
 data modify entity @e[tag=menu-center,tag=!tagged,limit=1,sort=nearest] data.player_rot set from entity @s Rotation
 
+summon interaction ~ ~ ~ {Tags:["menu","menu-interaction","companion-entity"],width:1f, height:1f}
+
 $summon item_display ~ ~ ~ {Tags:["menu","menu-item","menu-item-i-1","companion-entity"],Glowing:1b,glow_color_override:17669,interpolation_duration:5,view_range:0.01f,transformation:{left_rotation:[0.0f,1.0f,0.0f,0f],right_rotation:[0.0f,1.0f,0.0f,0f],translation:[$(x1)f,$(y1)f,$(z1)f],scale:[0.125f,0.125f,0.125f]},item:{id:"minecraft:paper",count:1}}
 $summon marker ~$(x1) ~$(y1) ~$(z1) {Tags:["menu","menu-item-selection","menu-item-i-1","companion-entity"],data:{menu_item_tag:"menu-item-i-1"}}
 
