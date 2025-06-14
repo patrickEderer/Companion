@@ -1,0 +1,1 @@
+give @s minecraft:netherite_sword[minecraft:custom_data={"bound_animal_id":1}]

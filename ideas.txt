@@ -16,3 +16,8 @@ options are types:
 	build
 	attack
 	heal
+
+
+Add menu displays life time
+Add Selectable
+Make menu items move with player

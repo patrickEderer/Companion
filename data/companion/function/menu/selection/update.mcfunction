@@ -1,0 +1,1 @@
+execute at @a if score @s menu_player_id = @p id run function companion:menu/selection/check

@@ -4,7 +4,7 @@
 
 **Int** -> use /return
 
-**String** -> store in \<packagename>:\<function_name> \<function_name>
+**String** -> store in \<packagename>:temp \<function_name>
 
 
 ## Direcotry Structure

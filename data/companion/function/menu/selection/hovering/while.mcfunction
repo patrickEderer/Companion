@@ -1,0 +1,2 @@
+data modify storage companion:temp menu.hovering_over_tag set from entity @s data.menu_item_tag
+execute as @e[tag=menu-item] at @s run function companion:menu/selection/hovering/with_tag with storage companion:temp menu
