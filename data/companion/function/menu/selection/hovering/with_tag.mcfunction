@@ -1,3 +1,3 @@
 # @s are all menu item entities with same id
-$execute if entity @s[tag=$(hovering_over_tag)] run data merge entity @s {transformation:{scale:[0.2f,0.2f,0.2f]},start_interpolation:-1,glow_color_override:41740}
-$execute unless entity @s[tag=$(hovering_over_tag)] run data merge entity @s {transformation:{scale:[0.125f,0.125f,0.125f]},start_interpolation:-1,glow_color_override:17669}
+$execute if entity @s[tag=$(hovering_over_tag)] run data merge entity @s {transformation:{scale:[0.2f,0.2f,0.2f]},start_interpolation:-1,brightness:{sky:15,block:15}}
+$execute unless entity @s[tag=$(hovering_over_tag)] run data merge entity @s {transformation:{scale:[0.15f,0.15f,0.15f]},start_interpolation:-1,brightness:{sky:2,block:2}}

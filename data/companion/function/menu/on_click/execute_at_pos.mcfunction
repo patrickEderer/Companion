@@ -1,0 +1,1 @@
+$execute if entity @s[tag=$(hovering_over_tag)] run particle small_gust
