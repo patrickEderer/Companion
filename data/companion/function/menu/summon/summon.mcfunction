@@ -6,18 +6,18 @@ data modify entity @e[tag=menu-center,tag=!tagged,limit=1,sort=nearest] data.pla
 
 summon interaction ~ ~-0.05 ~ {Tags:["menu","menu-interaction","companion-entity"],width:0.1f, height:0.1f,response:true}
 
-$summon item_display ~ ~ ~ {Tags:["menu","menu-background","companion-entity"],view_range:0.01f,transformation:{left_rotation:[1.0f,0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,1.0f,0.0f],translation:[$(x5)f,$(y5)f,$(z5)f],scale:[1.5f,1.5f,1.5f]},item:{id:"minecraft:heart_of_the_sea",count:1},brightness:{sky:1,block:0}}
+$summon item_display ~ ~ ~ {Tags:["menu","menu-background","companion-entity"],view_range:0.01f,transformation:{left_rotation:[1.0f,0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,1.0f,0.0f],translation:[$(x5)f,$(y5)f,$(z5)f],scale:[1.5f,1.5f,1.5f]},item:{id:"minecraft:paper",count:1,components:{"minecraft:enchantment_glint_override":false}},brightness:{sky:1,block:0}}
 
-$summon item_display ~ ~ ~ {Tags:["menu","menu-item","menu-item-i-1","companion-entity"],glow_color_override:41740,interpolation_duration:5,view_range:0.01f,transformation:{left_rotation:[1.0f,0.0f,0.0f,0f],right_rotation:[0.0f,0.0f,1.0f,0.0f],translation:[$(x1)f,$(y1)f,$(z1)f],scale:[0.2f,0.2f,0.2f]},item:{id:"minecraft:redstone",count:1}}
+$summon item_display ~ ~ ~ {Tags:["menu","menu-item","menu-item-i-1","companion-entity"],glow_color_override:41740,interpolation_duration:5,view_range:0.01f,transformation:{left_rotation:[1.0f,0.0f,0.0f,0f],right_rotation:[0.0f,0.0f,1.0f,0.0f],translation:[$(x1)f,$(y1)f,$(z1)f],scale:[0.2f,0.2f,0.2f]},brightness:{sky:5,block:0},item:{id:"minecraft:redstone",count:1}}
 $summon marker ~$(x1) ~$(y1) ~$(z1) {Tags:["menu","menu-item-selection","menu-item-i-1","companion-entity"],data:{menu_item_tag:"menu-item-i-1"}}
 
-$summon item_display ~ ~ ~ {Tags:["menu","menu-item","menu-item-i-2","companion-entity"],glow_color_override:41740,interpolation_duration:5,view_range:0.01f,transformation:{left_rotation:[1.0f,0.0f,0.0f,0f],right_rotation:[0.0f,0.0f,1.0f,0.0f],translation:[$(x2)f,$(y2)f,$(z2)f],scale:[0.2f,0.2f,0.2f]},item:{id:"minecraft:golden_apple",count:1}}
+$summon item_display ~ ~ ~ {Tags:["menu","menu-item","menu-item-i-2","companion-entity"],glow_color_override:41740,interpolation_duration:5,view_range:0.01f,transformation:{left_rotation:[1.0f,0.0f,0.0f,0f],right_rotation:[0.0f,0.0f,1.0f,0.0f],translation:[$(x2)f,$(y2)f,$(z2)f],scale:[0.2f,0.2f,0.2f]},brightness:{sky:5,block:0},item:{id:"minecraft:golden_apple",count:1}}
 $summon marker ~$(x2) ~$(y2) ~$(z2) {Tags:["menu","menu-item-selection","menu-item-i-2","companion-entity"],data:{menu_item_tag:"menu-item-i-2"}}
 
-$summon item_display ~ ~ ~ {Tags:["menu","menu-item","menu-item-i-3","companion-entity"],glow_color_override:41740,interpolation_duration:5,view_range:0.01f,transformation:{left_rotation:[1.0f,0.0f,0.0f,0f],right_rotation:[0.0f,0.0f,1.0f,0.0f],translation:[$(x3)f,$(y3)f,$(z3)f],scale:[0.2f,0.2f,0.2f]},item:{id:"minecraft:packed_ice",count:1}}
+$summon item_display ~ ~ ~ {Tags:["menu","menu-item","menu-item-i-3","companion-entity"],glow_color_override:41740,interpolation_duration:5,view_range:0.01f,transformation:{left_rotation:[1.0f,0.0f,0.0f,0f],right_rotation:[0.0f,0.0f,1.0f,0.0f],translation:[$(x3)f,$(y3)f,$(z3)f],scale:[0.2f,0.2f,0.2f]},brightness:{sky:5,block:0},item:{id:"minecraft:packed_ice",count:1}}
 $summon marker ~$(x3) ~$(y3) ~$(z3) {Tags:["menu","menu-item-selection","menu-item-i-3","companion-entity"],data:{menu_item_tag:"menu-item-i-3"}}
 
-$summon item_display ~ ~ ~ {Tags:["menu","menu-item","menu-item-i-4","companion-entity"],glow_color_override:41740,interpolation_duration:5,view_range:0.01f,transformation:{left_rotation:[1.0f,0.0f,0.0f,0f],right_rotation:[0.0f,0.0f,1.0f,0.0f],translation:[$(x4)f,$(y4)f,$(z4)f],scale:[0.2f,0.2f,0.2f]},item:{id:"minecraft:pale_oak_door",count:1}}
+$summon item_display ~ ~ ~ {Tags:["menu","menu-item","menu-item-i-4","companion-entity"],glow_color_override:41740,interpolation_duration:5,view_range:0.01f,transformation:{left_rotation:[1.0f,0.0f,0.0f,0f],right_rotation:[0.0f,0.0f,1.0f,0.0f],translation:[$(x4)f,$(y4)f,$(z4)f],scale:[0.2f,0.2f,0.2f]},brightness:{sky:5,block:0},item:{id:"minecraft:pale_oak_door",count:1}}
 $summon marker ~$(x4) ~$(y4) ~$(z4) {Tags:["menu","menu-item-selection","menu-item-i-4","companion-entity"],data:{menu_item_tag:"menu-item-i-4"}}
 
 execute as @e[tag=menu,tag=!tagged,distance=..10] run scoreboard players operation @s menu_player_id = @p id
