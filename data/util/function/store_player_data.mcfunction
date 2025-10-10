@@ -1,1 +1,1 @@
-$data modify storage companion:player_data $(id).$(var_name) set value $(data)
+$data modify storage util:player_data $(id).$(var_name) set value $(data)

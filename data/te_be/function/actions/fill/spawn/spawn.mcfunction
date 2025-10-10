@@ -1,0 +1,1 @@
+$execute positioned $(min_x) $(min_y) $(min_z) run function te_be:actions/fill/spawn/spawn_recursive/spawn
