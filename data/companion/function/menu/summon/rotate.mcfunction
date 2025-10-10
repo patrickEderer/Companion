@@ -1,1 +1,0 @@
-$data merge entity @s {transformation:{left_rotation:[$(x)f,0.0f,$(z)f,0.0f]}}

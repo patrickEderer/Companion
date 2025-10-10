@@ -1,6 +1,7 @@
 {
     "values": [
-        "companion:load",
-        "math:load"
+        "te_be:load_tick/load",
+        "math:load",
+        "util:load"
     ]
 }

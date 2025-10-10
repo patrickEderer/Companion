@@ -1,0 +1,1 @@
+tellraw @a [{"bold":true,"color":"dark_green","text":"Terr"},{"bold":true,"color":"gold","text":"Edit"},{"bold":false,"color":"gray","text":" by "},{"bold":true,"color":"dark_aqua","text":"commandkind"}]

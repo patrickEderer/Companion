@@ -1,5 +1,6 @@
 {
     "values": [
-        "companion:tick"
+        "te_be:load_tick/tick",
+        "util:id_system"
     ]
 }

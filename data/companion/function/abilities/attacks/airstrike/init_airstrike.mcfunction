@@ -1,2 +1,0 @@
-summon marker ~ -64 ~ {Tags:["temp_marker"]}
-execute positioned ~ -64 ~ as @e[tag=temp_marker,limit=1,sort=nearest] positioned ~ 320 ~ run function companion:abilities/attacks/airstrike/airstrike_raycast
