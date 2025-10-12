@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "use_item": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "selection": true,
+                            "start": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "te_be:selection/item/use/use"
+    }
+}

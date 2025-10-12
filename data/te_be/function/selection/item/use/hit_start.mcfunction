@@ -1,0 +1,3 @@
+execute store result storage te_be:selection start.x double 1 run data get entity @e[tag=te_selection_ray_hit,limit=1,sort=nearest] Pos[0]
+execute store result storage te_be:selection start.y double 1 run data get entity @e[tag=te_selection_ray_hit,limit=1,sort=nearest] Pos[1]
+execute store result storage te_be:selection start.z double 1 run data get entity @e[tag=te_selection_ray_hit,limit=1,sort=nearest] Pos[2]

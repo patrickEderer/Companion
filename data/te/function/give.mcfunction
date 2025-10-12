@@ -1,0 +1,1 @@
+give @s copper_axe[food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:100000,animation:"none",has_consume_particles:false},custom_data={selection:1b,start:1b},custom_model_data={strings:["start"]}]

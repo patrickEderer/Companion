@@ -1,0 +1,1 @@
+$fill ~ ~ ~ ~$(difference_x) ~$(difference_y) ~$(difference_z) $(block) replace
