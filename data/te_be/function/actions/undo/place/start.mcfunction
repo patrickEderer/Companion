@@ -1,0 +1,1 @@
+function te_be:actions/undo/place/run_paste with storage te_be:temp undo

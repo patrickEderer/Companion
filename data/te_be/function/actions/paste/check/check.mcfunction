@@ -1,1 +1,1 @@
-$return run execute if data storage te_be:copy data.$(name).blocks.$(paste_block_index)
+$return run execute if data storage te_be:copy data.$(name).$(paste_block_index)

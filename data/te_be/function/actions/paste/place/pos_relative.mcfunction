@@ -1,0 +1,1 @@
+$execute positioned ~$(x) ~$(y) ~$(z) run function te_be:actions/paste/place/place with storage te_be:paste
