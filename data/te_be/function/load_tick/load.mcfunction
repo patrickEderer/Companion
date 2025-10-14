@@ -1,8 +1,11 @@
 tellraw @a [{"bold":true,"color":"dark_green","text":"Terr"},{"bold":true,"color":"gold","text":"Edit"},{"bold":false,"color":"gray","text":" by "},{"bold":true,"color":"dark_aqua","text":"commandkind"}]
 
-scoreboard objectives add undo dummy
+scoreboard objectives add error dummy
+scoreboard objectives add copy dummy
+scoreboard objectives add paste dummy
 scoreboard objectives add settings dummy
 scoreboard objectives add operation_settings dummy
+scoreboard objectives add drop minecraft.dropped:minecraft.copper_axe
 
 scoreboard players set .undo_max settings 2
 

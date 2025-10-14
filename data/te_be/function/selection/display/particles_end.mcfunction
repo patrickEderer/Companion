@@ -1,1 +1,1 @@
-$execute positioned $(x). $(y). $(z). run function te_be:selection/item/highlight/particles {particle:"minecraft:dust{color:[1,0,0],scale:0.25}"}
+$execute positioned $(x). $(y). $(z). run function te_be:item/highlight/particles {particle:"minecraft:dust{color:[1,0,0],scale:0.25}"}

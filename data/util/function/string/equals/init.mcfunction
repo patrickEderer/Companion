@@ -1,0 +1,1 @@
+$data merge storage util:temp {string:{equals:{1:"$(1)",2:"$(2)"}}}

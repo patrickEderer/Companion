@@ -1,2 +1,0 @@
-execute if data entity @s SelectedItem.components."minecraft:custom_data".start run function te_be:selection/item/highlight/particles {particle:"dust{color:[0,1,0],scale:0.25}"}
-execute if data entity @s SelectedItem.components."minecraft:custom_data".end run function te_be:selection/item/highlight/particles {particle:"dust{color:[1,0,0],scale:0.25}"}

@@ -1,0 +1,1 @@
+return run function te_be:actions/paste/check/check with storage te_be:paste

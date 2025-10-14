@@ -1,0 +1,1 @@
+return run function util:string/equals/check/logic with storage util:temp string.equals

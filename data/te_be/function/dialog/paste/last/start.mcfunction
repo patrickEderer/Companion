@@ -1,0 +1,1 @@
+function te_be:dialog/paste/last/end with storage te_be:temp

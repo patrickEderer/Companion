@@ -1,3 +1,3 @@
-$execute as @e[tag=te_selection_x] run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[$(half_x)f,0f,0f],scale:[$(x)f,1f,1f]}}
-$execute as @e[tag=te_selection_y] run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,$(half_y)f,0f],scale:[1f,$(y)f,1f]}}
-$execute as @e[tag=te_selection_z] run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,$(half_z)f],scale:[1f,1f,$(z)f]}}
+$execute as @e[tag=te_selection_part_x] run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[$(half_x)f,0f,0f],scale:[$(x)f,1f,1f]}}
+$execute as @e[tag=te_selection_part_y] run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,$(half_y)f,0f],scale:[1f,$(y)f,1f]}}
+$execute as @e[tag=te_selection_part_z] run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,$(half_z)f],scale:[1f,1f,$(z)f]}}

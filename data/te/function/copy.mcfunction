@@ -1,1 +1,1 @@
-$function te_be:actions/fill/start {"block":$(block)}
+$function te_be:actions/copy/start {"name":$(name)}
